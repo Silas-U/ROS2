@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="py_publisher_subscriber" exec="listener" name="pubsub1" namespace="subscriber"/>
+  <node pkg="py_publisher_subscriber" exec="talker" name="pubsub2" namespace="publisher"/>
+</launch>
+
+<!-- WRITE A LAUNCH FILE FOR SRVCLI NODES
+WRITE A LAUNCH FILE NODES WITH PARAMS -->

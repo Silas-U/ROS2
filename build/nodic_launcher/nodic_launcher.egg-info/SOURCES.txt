@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/nodic_launcher/nodic_launcher.egg-info/PKG-INFO
+../../build/nodic_launcher/nodic_launcher.egg-info/SOURCES.txt
+../../build/nodic_launcher/nodic_launcher.egg-info/dependency_links.txt
+../../build/nodic_launcher/nodic_launcher.egg-info/requires.txt
+../../build/nodic_launcher/nodic_launcher.egg-info/top_level.txt
+../../build/nodic_launcher/nodic_launcher.egg-info/zip-safe
+launch/_launch.launch.py
+launch/_launch.xml
+nodic_launcher/__init__.py
+resource/nodic_launcher
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

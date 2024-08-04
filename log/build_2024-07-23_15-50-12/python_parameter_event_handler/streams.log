@@ -1,0 +1,37 @@
+[6.575s] Invoking command in '/home/meta/ros2_ws/src/python_parameter_event_handler': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/meta/ros2_ws/build/python_parameter_event_handler/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meta/ros2_ws/install/python_parameter_event_handler/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameter_event_handler build --build-base /home/meta/ros2_ws/build/python_parameter_event_handler/build install --record /home/meta/ros2_ws/build/python_parameter_event_handler/install.log --single-version-externally-managed install_data
+[7.175s] running egg_info
+[7.175s] creating ../../build/python_parameter_event_handler/python_parameter_event_handler.egg-info
+[7.220s] writing ../../build/python_parameter_event_handler/python_parameter_event_handler.egg-info/PKG-INFO
+[7.221s] writing dependency_links to ../../build/python_parameter_event_handler/python_parameter_event_handler.egg-info/dependency_links.txt
+[7.221s] writing entry points to ../../build/python_parameter_event_handler/python_parameter_event_handler.egg-info/entry_points.txt
+[7.222s] writing requirements to ../../build/python_parameter_event_handler/python_parameter_event_handler.egg-info/requires.txt
+[7.222s] writing top-level names to ../../build/python_parameter_event_handler/python_parameter_event_handler.egg-info/top_level.txt
+[7.222s] writing manifest file '../../build/python_parameter_event_handler/python_parameter_event_handler.egg-info/SOURCES.txt'
+[7.315s] reading manifest file '../../build/python_parameter_event_handler/python_parameter_event_handler.egg-info/SOURCES.txt'
+[7.317s] writing manifest file '../../build/python_parameter_event_handler/python_parameter_event_handler.egg-info/SOURCES.txt'
+[7.317s] running build
+[7.318s] running build_py
+[7.318s] creating /home/meta/ros2_ws/build/python_parameter_event_handler/build
+[7.318s] creating /home/meta/ros2_ws/build/python_parameter_event_handler/build/lib
+[7.319s] creating /home/meta/ros2_ws/build/python_parameter_event_handler/build/lib/python_parameter_event_handler
+[7.319s] copying python_parameter_event_handler/parameter_event_handler.py -> /home/meta/ros2_ws/build/python_parameter_event_handler/build/lib/python_parameter_event_handler
+[7.319s] copying python_parameter_event_handler/__init__.py -> /home/meta/ros2_ws/build/python_parameter_event_handler/build/lib/python_parameter_event_handler
+[7.320s] running install
+[7.332s] running install_lib
+[7.379s] creating /home/meta/ros2_ws/install/python_parameter_event_handler/lib/python3.12/site-packages/python_parameter_event_handler
+[7.379s] copying /home/meta/ros2_ws/build/python_parameter_event_handler/build/lib/python_parameter_event_handler/parameter_event_handler.py -> /home/meta/ros2_ws/install/python_parameter_event_handler/lib/python3.12/site-packages/python_parameter_event_handler
+[7.379s] copying /home/meta/ros2_ws/build/python_parameter_event_handler/build/lib/python_parameter_event_handler/__init__.py -> /home/meta/ros2_ws/install/python_parameter_event_handler/lib/python3.12/site-packages/python_parameter_event_handler
+[7.380s] byte-compiling /home/meta/ros2_ws/install/python_parameter_event_handler/lib/python3.12/site-packages/python_parameter_event_handler/parameter_event_handler.py to parameter_event_handler.cpython-312.pyc
+[7.382s] byte-compiling /home/meta/ros2_ws/install/python_parameter_event_handler/lib/python3.12/site-packages/python_parameter_event_handler/__init__.py to __init__.cpython-312.pyc
+[7.382s] running install_data
+[7.382s] creating /home/meta/ros2_ws/install/python_parameter_event_handler/share/ament_index
+[7.383s] creating /home/meta/ros2_ws/install/python_parameter_event_handler/share/ament_index/resource_index
+[7.383s] creating /home/meta/ros2_ws/install/python_parameter_event_handler/share/ament_index/resource_index/packages
+[7.383s] copying resource/python_parameter_event_handler -> /home/meta/ros2_ws/install/python_parameter_event_handler/share/ament_index/resource_index/packages
+[7.384s] copying package.xml -> /home/meta/ros2_ws/install/python_parameter_event_handler/share/python_parameter_event_handler
+[7.384s] running install_egg_info
+[7.432s] Copying ../../build/python_parameter_event_handler/python_parameter_event_handler.egg-info to /home/meta/ros2_ws/install/python_parameter_event_handler/lib/python3.12/site-packages/python_parameter_event_handler-0.0.0-py3.12.egg-info
+[7.433s] running install_scripts
+[7.731s] Installing node_param_handler script to /home/meta/ros2_ws/install/python_parameter_event_handler/lib/python_parameter_event_handler
+[7.731s] writing list of installed files to '/home/meta/ros2_ws/build/python_parameter_event_handler/install.log'
+[7.790s] Invoked command in '/home/meta/ros2_ws/src/python_parameter_event_handler' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/meta/ros2_ws/build/python_parameter_event_handler/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meta/ros2_ws/install/python_parameter_event_handler/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameter_event_handler build --build-base /home/meta/ros2_ws/build/python_parameter_event_handler/build install --record /home/meta/ros2_ws/build/python_parameter_event_handler/install.log --single-version-externally-managed install_data

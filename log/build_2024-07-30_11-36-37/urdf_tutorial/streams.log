@@ -1,0 +1,40 @@
+[0.154s] Invoking command in '/home/meta/ros2_ws/build/urdf_tutorial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/meta/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/meta/ros2_ws/install/urdf_tutorial
+[0.613s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.614s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.614s]   CMake.
+[0.614s] 
+[0.615s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.615s]   CMake that the project does not need compatibility with older versions.
+[0.615s] 
+[0.616s] [0m
+[3.037s] -- The C compiler identification is GNU 13.2.0
+[4.953s] -- The CXX compiler identification is GNU 13.2.0
+[5.216s] -- Detecting C compiler ABI info
+[5.794s] -- Detecting C compiler ABI info - done
+[5.819s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.833s] -- Detecting C compile features
+[5.859s] -- Detecting C compile features - done
+[5.896s] -- Detecting CXX compiler ABI info
+[6.122s] -- Detecting CXX compiler ABI info - done
+[6.147s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.148s] -- Detecting CXX compile features
+[6.150s] -- Detecting CXX compile features - done
+[6.555s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[6.556s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[6.556s]   asked CMake to find a package configuration file provided by "catkin", but
+[6.557s]   CMake did not find one.
+[6.558s] 
+[6.558s]   Could not find a package configuration file provided by "catkin" with any
+[6.559s]   of the following names:
+[6.559s] 
+[6.560s]     catkinConfig.cmake
+[6.560s]     catkin-config.cmake
+[6.561s] 
+[6.561s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[6.562s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[6.562s]   provides a separate development package or SDK, be sure it has been
+[6.562s]   installed.
+[6.563s] 
+[6.563s] [0m
+[6.564s] -- Configuring incomplete, errors occurred!
+[6.566s] Invoked command in '/home/meta/ros2_ws/build/urdf_tutorial' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/meta/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/meta/ros2_ws/install/urdf_tutorial

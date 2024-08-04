@@ -1,0 +1,3 @@
+[console_scripts]
+listener = py_publisher_subscriber.sub_member_function:main
+talker = py_publisher_subscriber.pub_member_function:main

@@ -1,0 +1,21 @@
+[0.019s] Invoking command in '/home/meta/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/meta/ros2_ws/build/more_interfaces -- -j4 -l4
+[0.063s] -- Found ament_cmake: 2.5.0 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.114s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.290s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.373s] -- Found rosidl_generator_c: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.394s] -- Found rosidl_generator_cpp: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.423s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.455s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.546s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.562s] -- Found rosidl_adapter: 4.6.2 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.567s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.567s]   rosidl_generate_interfaces() the passed file 'msg/Sphere.msg' doesn't exist
+[0.568s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.568s]   '/home/meta/ros2_ws/src/more_interfaces'
+[0.568s] Call Stack (most recent call first):
+[0.568s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[0.569s] 
+[0.569s] [0m
+[0.569s] -- Configuring incomplete, errors occurred!
+[0.576s] gmake: *** [Makefile:815: cmake_check_build_system] Error 1
+[0.579s] Invoked command in '/home/meta/ros2_ws/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/meta/ros2_ws/build/more_interfaces -- -j4 -l4

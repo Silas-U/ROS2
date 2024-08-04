@@ -1,0 +1,25 @@
+[6.151s] Invoking command in '/home/meta/ros2_ws/src/python_parameters': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/meta/ros2_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meta/ros2_ws/install/python_parameters/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/meta/ros2_ws/build/python_parameters/build install --record /home/meta/ros2_ws/build/python_parameters/install.log --single-version-externally-managed install_data
+[6.739s] running egg_info
+[6.785s] writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[6.785s] writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[6.786s] writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[6.786s] writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+[6.787s] writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+[6.878s] reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[6.898s] adding license file 'LICENSE'
+[6.899s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[6.900s] running build
+[6.900s] running build_py
+[6.900s] copying python_parameters/python_parameters_node.py -> /home/meta/ros2_ws/build/python_parameters/build/lib/python_parameters
+[6.901s] running install
+[6.914s] running install_lib
+[6.960s] copying /home/meta/ros2_ws/build/python_parameters/build/lib/python_parameters/python_parameters_node.py -> /home/meta/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters
+[6.961s] byte-compiling /home/meta/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters/python_parameters_node.py to python_parameters_node.cpython-312.pyc
+[6.962s] running install_data
+[6.963s] running install_egg_info
+[7.010s] removing '/home/meta/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters-0.0.0-py3.12.egg-info' (and everything under it)
+[7.010s] Copying ../../build/python_parameters/python_parameters.egg-info to /home/meta/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters-0.0.0-py3.12.egg-info
+[7.026s] running install_scripts
+[7.327s] Installing param_node script to /home/meta/ros2_ws/install/python_parameters/lib/python_parameters
+[7.328s] writing list of installed files to '/home/meta/ros2_ws/build/python_parameters/install.log'
+[7.387s] Invoked command in '/home/meta/ros2_ws/src/python_parameters' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/meta/ros2_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meta/ros2_ws/install/python_parameters/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/meta/ros2_ws/build/python_parameters/build install --record /home/meta/ros2_ws/build/python_parameters/install.log --single-version-externally-managed install_data

@@ -1,0 +1,38 @@
+[5.797s] Invoking command in '/home/meta/ros2_ws/src/python_parameters': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/meta/ros2_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meta/ros2_ws/install/python_parameters/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/meta/ros2_ws/build/python_parameters/build install --record /home/meta/ros2_ws/build/python_parameters/install.log --single-version-externally-managed install_data
+[6.387s] running egg_info
+[6.387s] creating ../../build/python_parameters/python_parameters.egg-info
+[6.431s] writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[6.432s] writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[6.433s] writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[6.433s] writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+[6.433s] writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+[6.434s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[6.526s] reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[6.527s] adding license file 'LICENSE'
+[6.528s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[6.528s] running build
+[6.529s] running build_py
+[6.529s] creating /home/meta/ros2_ws/build/python_parameters/build
+[6.529s] creating /home/meta/ros2_ws/build/python_parameters/build/lib
+[6.530s] creating /home/meta/ros2_ws/build/python_parameters/build/lib/python_parameters
+[6.530s] copying python_parameters/python_parameters_node.py -> /home/meta/ros2_ws/build/python_parameters/build/lib/python_parameters
+[6.530s] copying python_parameters/__init__.py -> /home/meta/ros2_ws/build/python_parameters/build/lib/python_parameters
+[6.531s] running install
+[6.544s] running install_lib
+[6.590s] creating /home/meta/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters
+[6.590s] copying /home/meta/ros2_ws/build/python_parameters/build/lib/python_parameters/python_parameters_node.py -> /home/meta/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters
+[6.591s] copying /home/meta/ros2_ws/build/python_parameters/build/lib/python_parameters/__init__.py -> /home/meta/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters
+[6.591s] byte-compiling /home/meta/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters/python_parameters_node.py to python_parameters_node.cpython-312.pyc
+[6.592s] byte-compiling /home/meta/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters/__init__.py to __init__.cpython-312.pyc
+[6.593s] running install_data
+[6.593s] creating /home/meta/ros2_ws/install/python_parameters/share/ament_index
+[6.594s] creating /home/meta/ros2_ws/install/python_parameters/share/ament_index/resource_index
+[6.594s] creating /home/meta/ros2_ws/install/python_parameters/share/ament_index/resource_index/packages
+[6.594s] copying resource/python_parameters -> /home/meta/ros2_ws/install/python_parameters/share/ament_index/resource_index/packages
+[6.594s] copying package.xml -> /home/meta/ros2_ws/install/python_parameters/share/python_parameters
+[6.595s] running install_egg_info
+[6.642s] Copying ../../build/python_parameters/python_parameters.egg-info to /home/meta/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters-0.0.0-py3.12.egg-info
+[6.644s] running install_scripts
+[6.941s] Installing param_node script to /home/meta/ros2_ws/install/python_parameters/lib/python_parameters
+[6.941s] writing list of installed files to '/home/meta/ros2_ws/build/python_parameters/install.log'
+[7.000s] Invoked command in '/home/meta/ros2_ws/src/python_parameters' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/meta/ros2_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meta/ros2_ws/install/python_parameters/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/meta/ros2_ws/build/python_parameters/build install --record /home/meta/ros2_ws/build/python_parameters/install.log --single-version-externally-managed install_data

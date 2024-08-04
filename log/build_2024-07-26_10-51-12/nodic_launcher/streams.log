@@ -1,0 +1,21 @@
+[6.953s] Invoking command in '/home/meta/ros2_ws/src/nodic_launcher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/meta/ros2_ws/build/nodic_launcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meta/ros2_ws/install/nodic_launcher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nodic_launcher build --build-base /home/meta/ros2_ws/build/nodic_launcher/build install --record /home/meta/ros2_ws/build/nodic_launcher/install.log --single-version-externally-managed install_data
+[7.670s] running egg_info
+[7.721s] writing ../../build/nodic_launcher/nodic_launcher.egg-info/PKG-INFO
+[7.721s] writing dependency_links to ../../build/nodic_launcher/nodic_launcher.egg-info/dependency_links.txt
+[7.722s] writing requirements to ../../build/nodic_launcher/nodic_launcher.egg-info/requires.txt
+[7.722s] writing top-level names to ../../build/nodic_launcher/nodic_launcher.egg-info/top_level.txt
+[7.826s] reading manifest file '../../build/nodic_launcher/nodic_launcher.egg-info/SOURCES.txt'
+[7.839s] adding license file 'LICENSE'
+[7.841s] writing manifest file '../../build/nodic_launcher/nodic_launcher.egg-info/SOURCES.txt'
+[7.841s] running build
+[7.842s] running build_py
+[7.842s] running install
+[7.856s] running install_lib
+[7.935s] running install_data
+[7.936s] copying launch/_launch.launch.py -> /home/meta/ros2_ws/install/nodic_launcher/share/nodic_launcher/launch
+[7.936s] running install_egg_info
+[7.997s] removing '/home/meta/ros2_ws/install/nodic_launcher/lib/python3.12/site-packages/nodic_launcher-0.0.0-py3.12.egg-info' (and everything under it)
+[7.997s] Copying ../../build/nodic_launcher/nodic_launcher.egg-info to /home/meta/ros2_ws/install/nodic_launcher/lib/python3.12/site-packages/nodic_launcher-0.0.0-py3.12.egg-info
+[8.023s] running install_scripts
+[8.383s] writing list of installed files to '/home/meta/ros2_ws/build/nodic_launcher/install.log'
+[8.451s] Invoked command in '/home/meta/ros2_ws/src/nodic_launcher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/meta/ros2_ws/build/nodic_launcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meta/ros2_ws/install/nodic_launcher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nodic_launcher build --build-base /home/meta/ros2_ws/build/nodic_launcher/build install --record /home/meta/ros2_ws/build/nodic_launcher/install.log --single-version-externally-managed install_data

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/python_parameter_event_handler/python_parameter_event_handler.egg-info
+writing ../../build/python_parameter_event_handler/python_parameter_event_handler.egg-info/PKG-INFO
+writing dependency_links to ../../build/python_parameter_event_handler/python_parameter_event_handler.egg-info/dependency_links.txt
+writing entry points to ../../build/python_parameter_event_handler/python_parameter_event_handler.egg-info/entry_points.txt
+writing requirements to ../../build/python_parameter_event_handler/python_parameter_event_handler.egg-info/requires.txt
+writing top-level names to ../../build/python_parameter_event_handler/python_parameter_event_handler.egg-info/top_level.txt
+writing manifest file '../../build/python_parameter_event_handler/python_parameter_event_handler.egg-info/SOURCES.txt'
+reading manifest file '../../build/python_parameter_event_handler/python_parameter_event_handler.egg-info/SOURCES.txt'
+writing manifest file '../../build/python_parameter_event_handler/python_parameter_event_handler.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/meta/ros2_ws/build/python_parameter_event_handler/build
+creating /home/meta/ros2_ws/build/python_parameter_event_handler/build/lib
+creating /home/meta/ros2_ws/build/python_parameter_event_handler/build/lib/python_parameter_event_handler
+copying python_parameter_event_handler/parameter_event_handler.py -> /home/meta/ros2_ws/build/python_parameter_event_handler/build/lib/python_parameter_event_handler
+copying python_parameter_event_handler/__init__.py -> /home/meta/ros2_ws/build/python_parameter_event_handler/build/lib/python_parameter_event_handler
+running install
+running install_lib
+creating /home/meta/ros2_ws/install/python_parameter_event_handler/lib/python3.12/site-packages/python_parameter_event_handler
+copying /home/meta/ros2_ws/build/python_parameter_event_handler/build/lib/python_parameter_event_handler/parameter_event_handler.py -> /home/meta/ros2_ws/install/python_parameter_event_handler/lib/python3.12/site-packages/python_parameter_event_handler
+copying /home/meta/ros2_ws/build/python_parameter_event_handler/build/lib/python_parameter_event_handler/__init__.py -> /home/meta/ros2_ws/install/python_parameter_event_handler/lib/python3.12/site-packages/python_parameter_event_handler
+byte-compiling /home/meta/ros2_ws/install/python_parameter_event_handler/lib/python3.12/site-packages/python_parameter_event_handler/parameter_event_handler.py to parameter_event_handler.cpython-312.pyc
+byte-compiling /home/meta/ros2_ws/install/python_parameter_event_handler/lib/python3.12/site-packages/python_parameter_event_handler/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/meta/ros2_ws/install/python_parameter_event_handler/share/ament_index
+creating /home/meta/ros2_ws/install/python_parameter_event_handler/share/ament_index/resource_index
+creating /home/meta/ros2_ws/install/python_parameter_event_handler/share/ament_index/resource_index/packages
+copying resource/python_parameter_event_handler -> /home/meta/ros2_ws/install/python_parameter_event_handler/share/ament_index/resource_index/packages
+copying package.xml -> /home/meta/ros2_ws/install/python_parameter_event_handler/share/python_parameter_event_handler
+running install_egg_info
+Copying ../../build/python_parameter_event_handler/python_parameter_event_handler.egg-info to /home/meta/ros2_ws/install/python_parameter_event_handler/lib/python3.12/site-packages/python_parameter_event_handler-0.0.0-py3.12.egg-info
+running install_scripts
+Installing node_param_handler script to /home/meta/ros2_ws/install/python_parameter_event_handler/lib/python_parameter_event_handler
+writing list of installed files to '/home/meta/ros2_ws/build/python_parameter_event_handler/install.log'

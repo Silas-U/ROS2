@@ -1,0 +1,9 @@
+/home/meta/ros2_ws/src/more_interfaces/build/CMakeFiles/uninstall.dir
+/home/meta/ros2_ws/src/more_interfaces/build/CMakeFiles/more_interfaces_uninstall.dir
+/home/meta/ros2_ws/src/more_interfaces/build/CMakeFiles/test.dir
+/home/meta/ros2_ws/src/more_interfaces/build/CMakeFiles/edit_cache.dir
+/home/meta/ros2_ws/src/more_interfaces/build/CMakeFiles/rebuild_cache.dir
+/home/meta/ros2_ws/src/more_interfaces/build/CMakeFiles/list_install_components.dir
+/home/meta/ros2_ws/src/more_interfaces/build/CMakeFiles/install.dir
+/home/meta/ros2_ws/src/more_interfaces/build/CMakeFiles/install/local.dir
+/home/meta/ros2_ws/src/more_interfaces/build/CMakeFiles/install/strip.dir

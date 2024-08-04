@@ -1,0 +1,19 @@
+[0.018s] Invoking command in '/home/meta/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/meta/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/meta/ros2_ws/install/tutorial_interfaces
+[0.042s] -- Found ament_cmake: 2.5.0 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.445s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.512s] -- Found rosidl_generator_c: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.531s] -- Found rosidl_generator_cpp: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.556s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.586s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.678s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.695s] -- Found rosidl_adapter: 4.6.2 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.699s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.700s]   rosidl_generate_interfaces() the passed file 'msg/Sphere.msg' doesn't exist
+[0.700s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.700s]   '/home/meta/ros2_ws/src/tutorial_interfaces'
+[0.701s] Call Stack (most recent call first):
+[0.701s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.701s] 
+[0.701s] [0m
+[0.702s] -- Configuring incomplete, errors occurred!
+[0.710s] Invoked command in '/home/meta/ros2_ws/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/meta/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/meta/ros2_ws/install/tutorial_interfaces

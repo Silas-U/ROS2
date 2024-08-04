@@ -1,0 +1,32 @@
+[0.349s] Invoking command in '/home/meta/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/meta/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/meta/ros2_ws/install/tutorial_interfaces
+[7.469s] -- The C compiler identification is GNU 13.2.0
+[15.890s] -- The CXX compiler identification is GNU 13.2.0
+[16.727s] -- Detecting C compiler ABI info
+[18.036s] -- Detecting C compiler ABI info - done
+[18.058s] -- Check for working C compiler: /usr/bin/cc - skipped
+[18.075s] -- Detecting C compile features
+[18.089s] -- Detecting C compile features - done
+[18.229s] -- Detecting CXX compiler ABI info
+[18.630s] -- Detecting CXX compiler ABI info - done
+[18.650s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[18.650s] -- Detecting CXX compile features
+[18.651s] -- Detecting CXX compile features - done
+[18.968s] -- Found ament_cmake: 2.5.0 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[19.720s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[20.767s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[21.415s] -- Found rosidl_generator_c: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[21.586s] -- Found rosidl_generator_cpp: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[21.817s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[21.961s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[22.225s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[22.374s] -- Found rosidl_adapter: 4.6.2 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[22.384s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[22.385s]   rosidl_generate_interfaces() the passed file 'msg/Sphere.msg' doesn't exist
+[22.385s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[22.386s]   '/home/meta/ros2_ws/src/tutorial_interfaces'
+[22.386s] Call Stack (most recent call first):
+[22.386s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[22.387s] 
+[22.387s] [0m
+[22.388s] -- Configuring incomplete, errors occurred!
+[22.400s] Invoked command in '/home/meta/ros2_ws/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/meta/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/meta/ros2_ws/install/tutorial_interfaces

@@ -1,0 +1,125 @@
+[0.000000] (-) TimerEvent: {}
+[0.001553] (-) JobUnselected: {'identifier': 'custom_action_interfaces'}
+[0.001762] (-) JobUnselected: {'identifier': 'learning_tf2_py'}
+[0.001833] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.001882] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001929] (-) JobUnselected: {'identifier': 'nodic_launcher'}
+[0.001975] (-) JobUnselected: {'identifier': 'py_publisher_subscriber'}
+[0.002017] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.002059] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.002105] (-) JobUnselected: {'identifier': 'python_parameter_event_handler'}
+[0.002149] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.002196] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002244] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.002296] (urdf_tutorial) JobQueued: {'identifier': 'urdf_tutorial', 'dependencies': OrderedDict()}
+[0.002354] (urdf_tutorial) JobStarted: {'identifier': 'urdf_tutorial'}
+[0.099342] (-) TimerEvent: {}
+[0.154361] (urdf_tutorial) JobProgress: {'identifier': 'urdf_tutorial', 'progress': 'cmake'}
+[0.155133] (urdf_tutorial) Command: {'cmd': ['/usr/bin/cmake', '/home/meta/ros2_ws/src/urdf_tutorial', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/meta/ros2_ws/install/urdf_tutorial'], 'cwd': '/home/meta/ros2_ws/build/urdf_tutorial', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'meta', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/meta/ros2_ws/install/tutorial_interfaces/lib:/home/meta/ros2_ws/install/turtlesim/lib:/home/meta/ros2_ws/install/more_interfaces/lib:/home/meta/ros2_ws/install/custom_action_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/meta', 'OLDPWD': '/home/meta/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/meta/.nvm/versions/node/v22.3.0/bin', 'NVM_INC': '/home/meta/.nvm/versions/node/v22.3.0/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2609', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/meta/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/meta/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'meta', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'meta', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/meta/.nvm/versions/node/v22.3.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/meta-Inspiron-3542:@/tmp/.ICE-unix/2565,unix/meta-Inspiron-3542:/tmp/.ICE-unix/2565', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0071ae7f_f595_49e0_861f_e3795286eef4', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3PDMR2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.145', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/meta/ros2_ws/install/py_srvcli:/home/meta/ros2_ws/install/py_pubsub:/home/meta/ros2_ws/install/tutorial_interfaces:/home/meta/ros2_ws/install/learning_tf2_py:/home/meta/ros2_ws/install/turtlesim:/home/meta/ros2_ws/install/python_parameters:/home/meta/ros2_ws/install/python_parameter_event_handler:/home/meta/ros2_ws/install/py_publisher_subscriber:/home/meta/ros2_ws/install/nodic_launcher:/home/meta/ros2_ws/install/my_package:/home/meta/ros2_ws/install/more_interfaces:/home/meta/ros2_ws/install/custom_action_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/meta/ros2_ws/build/urdf_tutorial', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/meta/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/meta/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/meta/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/meta/ros2_ws/install/learning_tf2_py/lib/python3.12/site-packages:/home/meta/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/meta/ros2_ws/install/python_parameters/lib/python3.12/site-packages:/home/meta/ros2_ws/install/python_parameter_event_handler/lib/python3.12/site-packages:/home/meta/ros2_ws/install/py_publisher_subscriber/lib/python3.12/site-packages:/home/meta/ros2_ws/install/nodic_launcher/lib/python3.12/site-packages:/home/meta/ros2_ws/install/my_package/lib/python3.12/site-packages:/home/meta/ros2_ws/install/more_interfaces/lib/python3.12/site-packages:/home/meta/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/meta/ros2_ws/install/tutorial_interfaces:/home/meta/ros2_ws/install/turtlesim:/home/meta/ros2_ws/install/more_interfaces:/home/meta/ros2_ws/install/custom_action_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.200070] (-) TimerEvent: {}
+[0.300665] (-) TimerEvent: {}
+[0.401242] (-) TimerEvent: {}
+[0.501952] (-) TimerEvent: {}
+[0.602637] (-) TimerEvent: {}
+[0.614945] (urdf_tutorial) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.615714] (urdf_tutorial) StderrLine: {'line': b'  Compatibility with CMake < 3.5 will be removed from a future version of\n'}
+[0.616143] (urdf_tutorial) StderrLine: {'line': b'  CMake.\n'}
+[0.616469] (urdf_tutorial) StderrLine: {'line': b'\n'}
+[0.616867] (urdf_tutorial) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.617187] (urdf_tutorial) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.617490] (urdf_tutorial) StderrLine: {'line': b'\n'}
+[0.617859] (urdf_tutorial) StderrLine: {'line': b'\x1b[0m\n'}
+[0.702852] (-) TimerEvent: {}
+[0.803574] (-) TimerEvent: {}
+[0.904370] (-) TimerEvent: {}
+[1.005032] (-) TimerEvent: {}
+[1.105660] (-) TimerEvent: {}
+[1.206252] (-) TimerEvent: {}
+[1.306882] (-) TimerEvent: {}
+[1.407584] (-) TimerEvent: {}
+[1.508321] (-) TimerEvent: {}
+[1.609123] (-) TimerEvent: {}
+[1.709827] (-) TimerEvent: {}
+[1.810642] (-) TimerEvent: {}
+[1.911453] (-) TimerEvent: {}
+[2.012280] (-) TimerEvent: {}
+[2.113120] (-) TimerEvent: {}
+[2.214049] (-) TimerEvent: {}
+[2.314816] (-) TimerEvent: {}
+[2.415539] (-) TimerEvent: {}
+[2.516253] (-) TimerEvent: {}
+[2.616988] (-) TimerEvent: {}
+[2.717510] (-) TimerEvent: {}
+[2.818075] (-) TimerEvent: {}
+[2.918776] (-) TimerEvent: {}
+[3.019465] (-) TimerEvent: {}
+[3.039204] (urdf_tutorial) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[3.119646] (-) TimerEvent: {}
+[3.220138] (-) TimerEvent: {}
+[3.320756] (-) TimerEvent: {}
+[3.421431] (-) TimerEvent: {}
+[3.522098] (-) TimerEvent: {}
+[3.622736] (-) TimerEvent: {}
+[3.723393] (-) TimerEvent: {}
+[3.824088] (-) TimerEvent: {}
+[3.924811] (-) TimerEvent: {}
+[4.025537] (-) TimerEvent: {}
+[4.126237] (-) TimerEvent: {}
+[4.226937] (-) TimerEvent: {}
+[4.327726] (-) TimerEvent: {}
+[4.428395] (-) TimerEvent: {}
+[4.529088] (-) TimerEvent: {}
+[4.629931] (-) TimerEvent: {}
+[4.730794] (-) TimerEvent: {}
+[4.831406] (-) TimerEvent: {}
+[4.931980] (-) TimerEvent: {}
+[4.954716] (urdf_tutorial) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[5.032169] (-) TimerEvent: {}
+[5.132801] (-) TimerEvent: {}
+[5.218029] (urdf_tutorial) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.232966] (-) TimerEvent: {}
+[5.333522] (-) TimerEvent: {}
+[5.434248] (-) TimerEvent: {}
+[5.534802] (-) TimerEvent: {}
+[5.635223] (-) TimerEvent: {}
+[5.735977] (-) TimerEvent: {}
+[5.796425] (urdf_tutorial) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.821294] (urdf_tutorial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.834826] (urdf_tutorial) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.836111] (-) TimerEvent: {}
+[5.860249] (urdf_tutorial) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.897744] (urdf_tutorial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.936263] (-) TimerEvent: {}
+[6.036732] (-) TimerEvent: {}
+[6.124486] (urdf_tutorial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.136872] (-) TimerEvent: {}
+[6.149387] (urdf_tutorial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.150239] (urdf_tutorial) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.151709] (urdf_tutorial) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.237101] (-) TimerEvent: {}
+[6.337940] (-) TimerEvent: {}
+[6.438768] (-) TimerEvent: {}
+[6.539547] (-) TimerEvent: {}
+[6.556442] (urdf_tutorial) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[6.557477] (urdf_tutorial) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[6.558175] (urdf_tutorial) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[6.558825] (urdf_tutorial) StderrLine: {'line': b'  CMake did not find one.\n'}
+[6.559432] (urdf_tutorial) StderrLine: {'line': b'\n'}
+[6.560072] (urdf_tutorial) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[6.560748] (urdf_tutorial) StderrLine: {'line': b'  of the following names:\n'}
+[6.561332] (urdf_tutorial) StderrLine: {'line': b'\n'}
+[6.561961] (urdf_tutorial) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[6.562454] (urdf_tutorial) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[6.562844] (urdf_tutorial) StderrLine: {'line': b'\n'}
+[6.563363] (urdf_tutorial) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[6.563800] (urdf_tutorial) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[6.564161] (urdf_tutorial) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[6.564517] (urdf_tutorial) StderrLine: {'line': b'  installed.\n'}
+[6.564904] (urdf_tutorial) StderrLine: {'line': b'\n'}
+[6.565256] (urdf_tutorial) StderrLine: {'line': b'\x1b[0m\n'}
+[6.565688] (urdf_tutorial) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.567852] (urdf_tutorial) CommandEnded: {'returncode': 1}
+[6.640242] (-) TimerEvent: {}
+[6.740874] (-) TimerEvent: {}
+[6.814879] (urdf_tutorial) JobEnded: {'identifier': 'urdf_tutorial', 'rc': 1}
+[6.825911] (-) EventReactorShutdown: {}

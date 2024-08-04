@@ -1,0 +1,6 @@
+source;share/python_parameter_event_handler/hook/pythonpath.ps1
+source;share/python_parameter_event_handler/hook/pythonpath.dsv
+source;share/python_parameter_event_handler/hook/pythonpath.sh
+source;share/python_parameter_event_handler/hook/ament_prefix_path.ps1
+source;share/python_parameter_event_handler/hook/ament_prefix_path.dsv
+source;share/python_parameter_event_handler/hook/ament_prefix_path.sh

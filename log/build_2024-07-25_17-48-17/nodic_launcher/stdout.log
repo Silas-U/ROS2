@@ -1,0 +1,33 @@
+running egg_info
+creating ../../build/nodic_launcher/nodic_launcher.egg-info
+writing ../../build/nodic_launcher/nodic_launcher.egg-info/PKG-INFO
+writing dependency_links to ../../build/nodic_launcher/nodic_launcher.egg-info/dependency_links.txt
+writing requirements to ../../build/nodic_launcher/nodic_launcher.egg-info/requires.txt
+writing top-level names to ../../build/nodic_launcher/nodic_launcher.egg-info/top_level.txt
+writing manifest file '../../build/nodic_launcher/nodic_launcher.egg-info/SOURCES.txt'
+reading manifest file '../../build/nodic_launcher/nodic_launcher.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/nodic_launcher/nodic_launcher.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/meta/ros2_ws/build/nodic_launcher/build
+creating /home/meta/ros2_ws/build/nodic_launcher/build/lib
+creating /home/meta/ros2_ws/build/nodic_launcher/build/lib/nodic_launcher
+copying nodic_launcher/__init__.py -> /home/meta/ros2_ws/build/nodic_launcher/build/lib/nodic_launcher
+running install
+running install_lib
+creating /home/meta/ros2_ws/install/nodic_launcher/lib/python3.12/site-packages/nodic_launcher
+copying /home/meta/ros2_ws/build/nodic_launcher/build/lib/nodic_launcher/__init__.py -> /home/meta/ros2_ws/install/nodic_launcher/lib/python3.12/site-packages/nodic_launcher
+byte-compiling /home/meta/ros2_ws/install/nodic_launcher/lib/python3.12/site-packages/nodic_launcher/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/meta/ros2_ws/install/nodic_launcher/share/ament_index
+creating /home/meta/ros2_ws/install/nodic_launcher/share/ament_index/resource_index
+creating /home/meta/ros2_ws/install/nodic_launcher/share/ament_index/resource_index/packages
+copying resource/nodic_launcher -> /home/meta/ros2_ws/install/nodic_launcher/share/ament_index/resource_index/packages
+copying package.xml -> /home/meta/ros2_ws/install/nodic_launcher/share/nodic_launcher
+creating /home/meta/ros2_ws/install/nodic_launcher/share/nodic_launcher/launch
+copying launch/_launch.xml -> /home/meta/ros2_ws/install/nodic_launcher/share/nodic_launcher/launch
+running install_egg_info
+Copying ../../build/nodic_launcher/nodic_launcher.egg-info to /home/meta/ros2_ws/install/nodic_launcher/lib/python3.12/site-packages/nodic_launcher-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/meta/ros2_ws/build/nodic_launcher/install.log'

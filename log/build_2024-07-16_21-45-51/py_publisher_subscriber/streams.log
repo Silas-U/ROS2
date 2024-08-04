@@ -1,0 +1,42 @@
+[9.715s] Invoking command in '/home/meta/ros2_ws/src/py_publisher_subscriber': AMENT_PREFIX_PATH=/home/meta/ros2_ws/install/more_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/meta/ros2_ws/install/more_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/meta/ros2_ws/install/more_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/meta/ros2_ws/build/py_publisher_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meta/ros2_ws/install/py_publisher_subscriber/lib/python3.12/site-packages:/home/meta/ros2_ws/install/more_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_publisher_subscriber build --build-base /home/meta/ros2_ws/build/py_publisher_subscriber/build install --record /home/meta/ros2_ws/build/py_publisher_subscriber/install.log --single-version-externally-managed install_data
+[10.295s] running egg_info
+[10.295s] creating ../../build/py_publisher_subscriber/py_publisher_subscriber.egg-info
+[10.341s] writing ../../build/py_publisher_subscriber/py_publisher_subscriber.egg-info/PKG-INFO
+[10.341s] writing dependency_links to ../../build/py_publisher_subscriber/py_publisher_subscriber.egg-info/dependency_links.txt
+[10.342s] writing entry points to ../../build/py_publisher_subscriber/py_publisher_subscriber.egg-info/entry_points.txt
+[10.342s] writing requirements to ../../build/py_publisher_subscriber/py_publisher_subscriber.egg-info/requires.txt
+[10.343s] writing top-level names to ../../build/py_publisher_subscriber/py_publisher_subscriber.egg-info/top_level.txt
+[10.343s] writing manifest file '../../build/py_publisher_subscriber/py_publisher_subscriber.egg-info/SOURCES.txt'
+[10.432s] reading manifest file '../../build/py_publisher_subscriber/py_publisher_subscriber.egg-info/SOURCES.txt'
+[10.433s] adding license file 'LICENSE'
+[10.434s] writing manifest file '../../build/py_publisher_subscriber/py_publisher_subscriber.egg-info/SOURCES.txt'
+[10.434s] running build
+[10.434s] running build_py
+[10.435s] creating /home/meta/ros2_ws/build/py_publisher_subscriber/build
+[10.435s] creating /home/meta/ros2_ws/build/py_publisher_subscriber/build/lib
+[10.436s] creating /home/meta/ros2_ws/build/py_publisher_subscriber/build/lib/py_publisher_subscriber
+[10.436s] copying py_publisher_subscriber/subscriber_member_function .py -> /home/meta/ros2_ws/build/py_publisher_subscriber/build/lib/py_publisher_subscriber
+[10.436s] copying py_publisher_subscriber/__init__.py -> /home/meta/ros2_ws/build/py_publisher_subscriber/build/lib/py_publisher_subscriber
+[10.437s] copying py_publisher_subscriber/publisher_member_function.py -> /home/meta/ros2_ws/build/py_publisher_subscriber/build/lib/py_publisher_subscriber
+[10.437s] running install
+[10.449s] running install_lib
+[10.494s] creating /home/meta/ros2_ws/install/py_publisher_subscriber/lib/python3.12/site-packages/py_publisher_subscriber
+[10.495s] copying /home/meta/ros2_ws/build/py_publisher_subscriber/build/lib/py_publisher_subscriber/subscriber_member_function .py -> /home/meta/ros2_ws/install/py_publisher_subscriber/lib/python3.12/site-packages/py_publisher_subscriber
+[10.495s] copying /home/meta/ros2_ws/build/py_publisher_subscriber/build/lib/py_publisher_subscriber/__init__.py -> /home/meta/ros2_ws/install/py_publisher_subscriber/lib/python3.12/site-packages/py_publisher_subscriber
+[10.495s] copying /home/meta/ros2_ws/build/py_publisher_subscriber/build/lib/py_publisher_subscriber/publisher_member_function.py -> /home/meta/ros2_ws/install/py_publisher_subscriber/lib/python3.12/site-packages/py_publisher_subscriber
+[10.496s] byte-compiling /home/meta/ros2_ws/install/py_publisher_subscriber/lib/python3.12/site-packages/py_publisher_subscriber/subscriber_member_function .py to subscriber_member_function .cpython-312.pyc
+[10.497s] byte-compiling /home/meta/ros2_ws/install/py_publisher_subscriber/lib/python3.12/site-packages/py_publisher_subscriber/__init__.py to __init__.cpython-312.pyc
+[10.498s] byte-compiling /home/meta/ros2_ws/install/py_publisher_subscriber/lib/python3.12/site-packages/py_publisher_subscriber/publisher_member_function.py to publisher_member_function.cpython-312.pyc
+[10.499s] running install_data
+[10.499s] creating /home/meta/ros2_ws/install/py_publisher_subscriber/share/ament_index
+[10.499s] creating /home/meta/ros2_ws/install/py_publisher_subscriber/share/ament_index/resource_index
+[10.500s] creating /home/meta/ros2_ws/install/py_publisher_subscriber/share/ament_index/resource_index/packages
+[10.500s] copying resource/py_publisher_subscriber -> /home/meta/ros2_ws/install/py_publisher_subscriber/share/ament_index/resource_index/packages
+[10.501s] copying package.xml -> /home/meta/ros2_ws/install/py_publisher_subscriber/share/py_publisher_subscriber
+[10.501s] running install_egg_info
+[10.549s] Copying ../../build/py_publisher_subscriber/py_publisher_subscriber.egg-info to /home/meta/ros2_ws/install/py_publisher_subscriber/lib/python3.12/site-packages/py_publisher_subscriber-0.0.0-py3.12.egg-info
+[10.551s] running install_scripts
+[10.840s] Installing listener script to /home/meta/ros2_ws/install/py_publisher_subscriber/lib/py_publisher_subscriber
+[10.840s] Installing talker script to /home/meta/ros2_ws/install/py_publisher_subscriber/lib/py_publisher_subscriber
+[10.841s] writing list of installed files to '/home/meta/ros2_ws/build/py_publisher_subscriber/install.log'
+[10.898s] Invoked command in '/home/meta/ros2_ws/src/py_publisher_subscriber' returned '0': AMENT_PREFIX_PATH=/home/meta/ros2_ws/install/more_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/meta/ros2_ws/install/more_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/meta/ros2_ws/install/more_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/meta/ros2_ws/build/py_publisher_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meta/ros2_ws/install/py_publisher_subscriber/lib/python3.12/site-packages:/home/meta/ros2_ws/install/more_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_publisher_subscriber build --build-base /home/meta/ros2_ws/build/py_publisher_subscriber/build install --record /home/meta/ros2_ws/build/py_publisher_subscriber/install.log --single-version-externally-managed install_data

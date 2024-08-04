@@ -1,0 +1,26 @@
+[6.145s] Invoking command in '/home/meta/ros2_ws/src/learning_tf2_py': AMENT_PREFIX_PATH=/home/meta/ros2_ws/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/meta/ros2_ws/install/turtlesim:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/meta/ros2_ws/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/meta/ros2_ws/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meta/ros2_ws/install/learning_tf2_py/lib/python3.12/site-packages:/home/meta/ros2_ws/install/turtlesim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/meta/ros2_ws/build/learning_tf2_py/build install --record /home/meta/ros2_ws/build/learning_tf2_py/install.log --single-version-externally-managed install_data
+[6.716s] running egg_info
+[6.761s] writing ../../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+[6.761s] writing dependency_links to ../../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+[6.762s] writing entry points to ../../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+[6.762s] writing requirements to ../../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+[6.763s] writing top-level names to ../../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+[6.854s] reading manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[6.859s] adding license file 'LICENSE'
+[6.860s] writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[6.860s] running build
+[6.861s] running build_py
+[6.861s] copying learning_tf2_py/turtle_tf2_listener.py -> /home/meta/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+[6.862s] running install
+[6.876s] running install_lib
+[6.923s] copying /home/meta/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py/turtle_tf2_listener.py -> /home/meta/ros2_ws/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py
+[6.924s] byte-compiling /home/meta/ros2_ws/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py/turtle_tf2_listener.py to turtle_tf2_listener.cpython-312.pyc
+[6.926s] running install_data
+[6.927s] running install_egg_info
+[6.975s] removing '/home/meta/ros2_ws/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py-0.0.0-py3.12.egg-info' (and everything under it)
+[6.976s] Copying ../../build/learning_tf2_py/learning_tf2_py.egg-info to /home/meta/ros2_ws/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py-0.0.0-py3.12.egg-info
+[6.987s] running install_scripts
+[7.303s] Installing static_turtle_tf2_broadcaster script to /home/meta/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+[7.303s] Installing turtle_tf2_broadcaster script to /home/meta/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+[7.304s] writing list of installed files to '/home/meta/ros2_ws/build/learning_tf2_py/install.log'
+[7.363s] Invoked command in '/home/meta/ros2_ws/src/learning_tf2_py' returned '0': AMENT_PREFIX_PATH=/home/meta/ros2_ws/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/meta/ros2_ws/install/turtlesim:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/meta/ros2_ws/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/meta/ros2_ws/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meta/ros2_ws/install/learning_tf2_py/lib/python3.12/site-packages:/home/meta/ros2_ws/install/turtlesim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/meta/ros2_ws/build/learning_tf2_py/build install --record /home/meta/ros2_ws/build/learning_tf2_py/install.log --single-version-externally-managed install_data

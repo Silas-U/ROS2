@@ -1,0 +1,42 @@
+[9.431s] Invoking command in '/home/meta/ros2_ws/src/py_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/meta/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meta/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/meta/ros2_ws/build/py_pubsub/build install --record /home/meta/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[10.069s] running egg_info
+[10.069s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[10.116s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[10.117s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[10.117s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[10.118s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[10.118s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[10.118s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[10.214s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[10.215s] adding license file 'LICENSE'
+[10.216s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[10.216s] running build
+[10.216s] running build_py
+[10.217s] creating /home/meta/ros2_ws/build/py_pubsub/build
+[10.217s] creating /home/meta/ros2_ws/build/py_pubsub/build/lib
+[10.218s] creating /home/meta/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[10.218s] copying py_pubsub/subscriber_member_function.py -> /home/meta/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[10.218s] copying py_pubsub/__init__.py -> /home/meta/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[10.219s] copying py_pubsub/publisher_member_function.py -> /home/meta/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[10.219s] running install
+[10.232s] running install_lib
+[10.280s] creating /home/meta/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[10.281s] copying /home/meta/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/meta/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[10.281s] copying /home/meta/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/meta/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[10.281s] copying /home/meta/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/meta/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[10.282s] byte-compiling /home/meta/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-312.pyc
+[10.283s] byte-compiling /home/meta/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/__init__.py to __init__.cpython-312.pyc
+[10.284s] byte-compiling /home/meta/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-312.pyc
+[10.285s] running install_data
+[10.285s] creating /home/meta/ros2_ws/install/py_pubsub/share/ament_index
+[10.285s] creating /home/meta/ros2_ws/install/py_pubsub/share/ament_index/resource_index
+[10.286s] creating /home/meta/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[10.286s] copying resource/py_pubsub -> /home/meta/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[10.286s] copying package.xml -> /home/meta/ros2_ws/install/py_pubsub/share/py_pubsub
+[10.286s] running install_egg_info
+[10.337s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/meta/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[10.339s] running install_scripts
+[10.646s] Installing listener script to /home/meta/ros2_ws/install/py_pubsub/lib/py_pubsub
+[10.647s] Installing talker script to /home/meta/ros2_ws/install/py_pubsub/lib/py_pubsub
+[10.648s] writing list of installed files to '/home/meta/ros2_ws/build/py_pubsub/install.log'
+[10.708s] Invoked command in '/home/meta/ros2_ws/src/py_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/meta/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meta/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/meta/ros2_ws/build/py_pubsub/build install --record /home/meta/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data

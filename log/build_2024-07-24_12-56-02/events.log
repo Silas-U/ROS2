@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.001376] (-) JobUnselected: {'identifier': 'custom_action_interfaces'}
+[0.001454] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.001491] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001519] (-) JobUnselected: {'identifier': 'py_publisher_subscriber'}
+[0.001545] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001569] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001592] (-) JobUnselected: {'identifier': 'python_parameter_event_handler'}
+[0.001614] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001636] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001663] (python_parameters) JobQueued: {'identifier': 'python_parameters', 'dependencies': OrderedDict()}
+[0.001715] (python_parameters) JobStarted: {'identifier': 'python_parameters'}
+[0.099640] (-) TimerEvent: {}
+[0.199996] (-) TimerEvent: {}
+[0.300325] (-) TimerEvent: {}
+[0.400673] (-) TimerEvent: {}
+[0.500992] (-) TimerEvent: {}
+[0.601285] (-) TimerEvent: {}
+[0.701578] (-) TimerEvent: {}
+[0.801944] (-) TimerEvent: {}
+[0.902289] (-) TimerEvent: {}
+[1.002607] (-) TimerEvent: {}
+[1.102891] (-) TimerEvent: {}
+[1.203254] (-) TimerEvent: {}
+[1.303578] (-) TimerEvent: {}
+[1.404009] (-) TimerEvent: {}
+[1.504582] (-) TimerEvent: {}
+[1.605232] (-) TimerEvent: {}
+[1.705871] (-) TimerEvent: {}
+[1.806625] (-) TimerEvent: {}
+[1.907345] (-) TimerEvent: {}
+[2.007973] (-) TimerEvent: {}
+[2.108622] (-) TimerEvent: {}
+[2.209277] (-) TimerEvent: {}
+[2.309986] (-) TimerEvent: {}
+[2.410590] (-) TimerEvent: {}
+[2.511366] (-) TimerEvent: {}
+[2.612075] (-) TimerEvent: {}
+[2.712642] (-) TimerEvent: {}
+[2.813227] (-) TimerEvent: {}
+[2.914051] (-) TimerEvent: {}
+[3.014609] (-) TimerEvent: {}
+[3.115091] (-) TimerEvent: {}
+[3.215680] (-) TimerEvent: {}
+[3.316105] (-) TimerEvent: {}
+[3.416717] (-) TimerEvent: {}
+[3.517330] (-) TimerEvent: {}
+[3.617638] (-) TimerEvent: {}
+[3.718131] (-) TimerEvent: {}
+[3.818803] (-) TimerEvent: {}
+[3.919592] (-) TimerEvent: {}
+[4.020225] (-) TimerEvent: {}
+[4.120834] (-) TimerEvent: {}
+[4.221474] (-) TimerEvent: {}
+[4.322186] (-) TimerEvent: {}
+[4.422777] (-) TimerEvent: {}
+[4.523337] (-) TimerEvent: {}
+[4.623711] (-) TimerEvent: {}
+[4.723996] (-) TimerEvent: {}
+[4.824336] (-) TimerEvent: {}
+[4.924889] (-) TimerEvent: {}
+[5.025516] (-) TimerEvent: {}
+[5.125818] (-) TimerEvent: {}
+[5.226480] (-) TimerEvent: {}
+[5.326974] (-) TimerEvent: {}
+[5.427384] (-) TimerEvent: {}
+[5.528205] (-) TimerEvent: {}
+[5.628870] (-) TimerEvent: {}
+[5.729596] (-) TimerEvent: {}
+[5.830531] (-) TimerEvent: {}
+[5.931044] (-) TimerEvent: {}
+[6.031586] (-) TimerEvent: {}
+[6.132150] (-) TimerEvent: {}
+[6.232667] (-) TimerEvent: {}
+[6.333155] (-) TimerEvent: {}
+[6.433555] (-) TimerEvent: {}
+[6.534094] (-) TimerEvent: {}
+[6.634666] (-) TimerEvent: {}
+[6.735362] (-) TimerEvent: {}
+[6.835910] (-) TimerEvent: {}
+[6.936273] (-) TimerEvent: {}
+[7.036617] (-) TimerEvent: {}
+[7.137059] (-) TimerEvent: {}
+[7.237495] (-) TimerEvent: {}
+[7.338013] (-) TimerEvent: {}
+[7.438780] (-) TimerEvent: {}
+[7.539372] (-) TimerEvent: {}
+[7.639673] (-) TimerEvent: {}
+[7.739988] (-) TimerEvent: {}
+[7.840354] (-) TimerEvent: {}
+[7.940856] (-) TimerEvent: {}
+[8.041470] (-) TimerEvent: {}
+[8.142033] (-) TimerEvent: {}
+[8.209035] (python_parameters) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/python_parameters', 'build', '--build-base', '/home/meta/ros2_ws/build/python_parameters/build', 'install', '--record', '/home/meta/ros2_ws/build/python_parameters/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/meta/ros2_ws/src/python_parameters', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/19051-0-meta-Inspiron-3542_TIME30917874', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'meta', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/meta/ros2_ws/install/tutorial_interfaces/lib:/home/meta/ros2_ws/install/turtlesim/lib:/home/meta/ros2_ws/install/more_interfaces/lib:/home/meta/ros2_ws/install/custom_action_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/meta', 'OLDPWD': '/home/meta/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/meta/.nvm/versions/node/v22.3.0/bin', 'NVM_INC': '/home/meta/.nvm/versions/node/v22.3.0/include/node', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '18741', 'SYSTEMD_EXEC_PID': '19051', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '29652', 'NVM_DIR': '/home/meta/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/meta/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'meta', 'JOURNAL_STREAM': '8:186985', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'meta', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/meta/.nvm/versions/node/v22.3.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/meta-Inspiron-3542:@/tmp/.ICE-unix/18975,unix/meta-Inspiron-3542:/tmp/.ICE-unix/18975', 'INVOCATION_ID': '549c399c1b144dc79d180f0e6b4b7270', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6UE6Q2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/meta/ros2_ws/install/py_srvcli:/home/meta/ros2_ws/install/py_pubsub:/home/meta/ros2_ws/install/tutorial_interfaces:/home/meta/ros2_ws/install/turtlesim:/home/meta/ros2_ws/install/python_parameters:/home/meta/ros2_ws/install/py_publisher_subscriber:/home/meta/ros2_ws/install/my_package:/home/meta/ros2_ws/install/more_interfaces:/home/meta/ros2_ws/install/custom_action_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:42afa2d6-78cd-4074-a029-88b50c0a667a', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/meta/ros2_ws/build/python_parameters', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/meta/ros2_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meta/ros2_ws/install/python_parameters/lib/python3.12/site-packages:/home/meta/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/meta/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/meta/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/meta/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/meta/ros2_ws/install/python_parameters/lib/python3.12/site-packages:/home/meta/ros2_ws/install/py_publisher_subscriber/lib/python3.12/site-packages:/home/meta/ros2_ws/install/my_package/lib/python3.12/site-packages:/home/meta/ros2_ws/install/more_interfaces/lib/python3.12/site-packages:/home/meta/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/meta/ros2_ws/install/tutorial_interfaces:/home/meta/ros2_ws/install/turtlesim:/home/meta/ros2_ws/install/more_interfaces:/home/meta/ros2_ws/install/custom_action_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[8.242760] (-) TimerEvent: {}
+[8.343474] (-) TimerEvent: {}
+[8.443803] (-) TimerEvent: {}
+[8.544154] (-) TimerEvent: {}
+[8.644474] (-) TimerEvent: {}
+[8.744792] (-) TimerEvent: {}
+[8.842660] (python_parameters) StdoutLine: {'line': b'running egg_info\n'}
+[8.844900] (-) TimerEvent: {}
+[8.890072] (python_parameters) StdoutLine: {'line': b'writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO\n'}
+[8.945122] (-) TimerEvent: {}
+[8.964770] (python_parameters) StdoutLine: {'line': b'writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt\n'}
+[8.965292] (python_parameters) StdoutLine: {'line': b'writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt\n'}
+[8.965677] (python_parameters) StdoutLine: {'line': b'writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt\n'}
+[8.966046] (python_parameters) StdoutLine: {'line': b'writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt\n'}
+[9.045230] (-) TimerEvent: {}
+[9.058765] (python_parameters) StdoutLine: {'line': b"reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'\n"}
+[9.069795] (python_parameters) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[9.070998] (python_parameters) StdoutLine: {'line': b"writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'\n"}
+[9.071375] (python_parameters) StdoutLine: {'line': b'running build\n'}
+[9.071741] (python_parameters) StdoutLine: {'line': b'running build_py\n'}
+[9.080845] (python_parameters) StdoutLine: {'line': b'copying python_parameters/python_parameters_node.py -> /home/meta/ros2_ws/build/python_parameters/build/lib/python_parameters\n'}
+[9.081601] (python_parameters) StdoutLine: {'line': b'running install\n'}
+[9.095863] (python_parameters) StdoutLine: {'line': b'running install_lib\n'}
+[9.142278] (python_parameters) StdoutLine: {'line': b'copying /home/meta/ros2_ws/build/python_parameters/build/lib/python_parameters/python_parameters_node.py -> /home/meta/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters\n'}
+[9.143561] (python_parameters) StdoutLine: {'line': b'byte-compiling /home/meta/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters/python_parameters_node.py to python_parameters_node.cpython-312.pyc\n'}
+[9.144716] (python_parameters) StdoutLine: {'line': b'running install_data\n'}
+[9.145219] (python_parameters) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.145470] (-) TimerEvent: {}
+[9.195175] (python_parameters) StdoutLine: {'line': b"removing '/home/meta/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[9.195727] (python_parameters) StdoutLine: {'line': b'Copying ../../build/python_parameters/python_parameters.egg-info to /home/meta/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters-0.0.0-py3.12.egg-info\n'}
+[9.214115] (python_parameters) StdoutLine: {'line': b'running install_scripts\n'}
+[9.245588] (-) TimerEvent: {}
+[9.345942] (-) TimerEvent: {}
+[9.446242] (-) TimerEvent: {}
+[9.514874] (python_parameters) StdoutLine: {'line': b'Installing param_node script to /home/meta/ros2_ws/install/python_parameters/lib/python_parameters\n'}
+[9.515668] (python_parameters) StdoutLine: {'line': b"writing list of installed files to '/home/meta/ros2_ws/build/python_parameters/install.log'\n"}
+[9.546393] (-) TimerEvent: {}
+[9.573710] (python_parameters) CommandEnded: {'returncode': 0}
+[9.646607] (-) TimerEvent: {}
+[9.747287] (-) TimerEvent: {}
+[9.820528] (python_parameters) JobEnded: {'identifier': 'python_parameters', 'rc': 0}
+[9.823226] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="py_pubsub" exec="listener" name="nodic_listener" />
+    <node pkg="py_pubsub" exec="talker" name="nodic_talker" />
+</launch>

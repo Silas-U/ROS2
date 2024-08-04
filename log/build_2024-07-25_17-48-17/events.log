@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000449] (-) JobUnselected: {'identifier': 'custom_action_interfaces'}
+[0.000645] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000959] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001021] (-) JobUnselected: {'identifier': 'py_publisher_subscriber'}
+[0.001074] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001120] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001165] (-) JobUnselected: {'identifier': 'python_parameter_event_handler'}
+[0.001208] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.001255] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001299] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001348] (nodic_launcher) JobQueued: {'identifier': 'nodic_launcher', 'dependencies': OrderedDict()}
+[0.001405] (nodic_launcher) JobStarted: {'identifier': 'nodic_launcher'}
+[0.098956] (-) TimerEvent: {}
+[0.199627] (-) TimerEvent: {}
+[0.300237] (-) TimerEvent: {}
+[0.401029] (-) TimerEvent: {}
+[0.501859] (-) TimerEvent: {}
+[0.602362] (-) TimerEvent: {}
+[0.702738] (-) TimerEvent: {}
+[0.803067] (-) TimerEvent: {}
+[0.903426] (-) TimerEvent: {}
+[1.003871] (-) TimerEvent: {}
+[1.104287] (-) TimerEvent: {}
+[1.204764] (-) TimerEvent: {}
+[1.305136] (-) TimerEvent: {}
+[1.405515] (-) TimerEvent: {}
+[1.505912] (-) TimerEvent: {}
+[1.606361] (-) TimerEvent: {}
+[1.706835] (-) TimerEvent: {}
+[1.807430] (-) TimerEvent: {}
+[1.908174] (-) TimerEvent: {}
+[2.008902] (-) TimerEvent: {}
+[2.109548] (-) TimerEvent: {}
+[2.210198] (-) TimerEvent: {}
+[2.310893] (-) TimerEvent: {}
+[2.411626] (-) TimerEvent: {}
+[2.512340] (-) TimerEvent: {}
+[2.613110] (-) TimerEvent: {}
+[2.713804] (-) TimerEvent: {}
+[2.814495] (-) TimerEvent: {}
+[2.915227] (-) TimerEvent: {}
+[3.015959] (-) TimerEvent: {}
+[3.116625] (-) TimerEvent: {}
+[3.217358] (-) TimerEvent: {}
+[3.317892] (-) TimerEvent: {}
+[3.418534] (-) TimerEvent: {}
+[3.519274] (-) TimerEvent: {}
+[3.620076] (-) TimerEvent: {}
+[3.720712] (-) TimerEvent: {}
+[3.821387] (-) TimerEvent: {}
+[3.922142] (-) TimerEvent: {}
+[4.022880] (-) TimerEvent: {}
+[4.123471] (-) TimerEvent: {}
+[4.224165] (-) TimerEvent: {}
+[4.324899] (-) TimerEvent: {}
+[4.425646] (-) TimerEvent: {}
+[4.526327] (-) TimerEvent: {}
+[4.627069] (-) TimerEvent: {}
+[4.727710] (-) TimerEvent: {}
+[4.828397] (-) TimerEvent: {}
+[4.929188] (-) TimerEvent: {}
+[5.029915] (-) TimerEvent: {}
+[5.130668] (-) TimerEvent: {}
+[5.231275] (-) TimerEvent: {}
+[5.332676] (-) TimerEvent: {}
+[5.433276] (-) TimerEvent: {}
+[5.533764] (-) TimerEvent: {}
+[5.634464] (-) TimerEvent: {}
+[5.735209] (-) TimerEvent: {}
+[5.835936] (-) TimerEvent: {}
+[5.936720] (-) TimerEvent: {}
+[6.037394] (-) TimerEvent: {}
+[6.138093] (-) TimerEvent: {}
+[6.238881] (-) TimerEvent: {}
+[6.339698] (-) TimerEvent: {}
+[6.440311] (-) TimerEvent: {}
+[6.540754] (-) TimerEvent: {}
+[6.641214] (-) TimerEvent: {}
+[6.741855] (-) TimerEvent: {}
+[6.842456] (-) TimerEvent: {}
+[6.943185] (-) TimerEvent: {}
+[7.043752] (-) TimerEvent: {}
+[7.144149] (-) TimerEvent: {}
+[7.244680] (-) TimerEvent: {}
+[7.345231] (-) TimerEvent: {}
+[7.445595] (-) TimerEvent: {}
+[7.545901] (-) TimerEvent: {}
+[7.646233] (-) TimerEvent: {}
+[7.746735] (-) TimerEvent: {}
+[7.847519] (-) TimerEvent: {}
+[7.947992] (-) TimerEvent: {}
+[8.048677] (-) TimerEvent: {}
+[8.149233] (-) TimerEvent: {}
+[8.240028] (nodic_launcher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/nodic_launcher', 'build', '--build-base', '/home/meta/ros2_ws/build/nodic_launcher/build', 'install', '--record', '/home/meta/ros2_ws/build/nodic_launcher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/meta/ros2_ws/src/nodic_launcher', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2584-1-meta-Inspiron-3542_TIME1031803', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'meta', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/meta/ros2_ws/install/tutorial_interfaces/lib:/home/meta/ros2_ws/install/turtlesim/lib:/home/meta/ros2_ws/install/more_interfaces/lib:/home/meta/ros2_ws/install/custom_action_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/meta', 'OLDPWD': '/home/meta', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/meta/.nvm/versions/node/v22.3.0/bin', 'NVM_INC': '/home/meta/.nvm/versions/node/v22.3.0/include/node', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2323', 'SYSTEMD_EXEC_PID': '2584', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4197', 'NVM_DIR': '/home/meta/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/meta/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'meta', 'JOURNAL_STREAM': '8:20708', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'meta', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/meta/.nvm/versions/node/v22.3.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/meta-Inspiron-3542:@/tmp/.ICE-unix/2548,unix/meta-Inspiron-3542:/tmp/.ICE-unix/2548', 'INVOCATION_ID': 'b5a28ddef80348de9427fa7ad0de0b6f', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Y2OGR2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/meta/ros2_ws/install/py_srvcli:/home/meta/ros2_ws/install/py_pubsub:/home/meta/ros2_ws/install/tutorial_interfaces:/home/meta/ros2_ws/install/turtlesim:/home/meta/ros2_ws/install/python_parameters:/home/meta/ros2_ws/install/python_parameter_event_handler:/home/meta/ros2_ws/install/py_publisher_subscriber:/home/meta/ros2_ws/install/my_package:/home/meta/ros2_ws/install/more_interfaces:/home/meta/ros2_ws/install/custom_action_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:10a5f0ea-1671-444d-89cd-d92ec9b9e361', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/meta/ros2_ws/build/nodic_launcher', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/meta/ros2_ws/build/nodic_launcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meta/ros2_ws/install/nodic_launcher/lib/python3.12/site-packages:/home/meta/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/meta/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/meta/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/meta/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/meta/ros2_ws/install/python_parameters/lib/python3.12/site-packages:/home/meta/ros2_ws/install/python_parameter_event_handler/lib/python3.12/site-packages:/home/meta/ros2_ws/install/py_publisher_subscriber/lib/python3.12/site-packages:/home/meta/ros2_ws/install/my_package/lib/python3.12/site-packages:/home/meta/ros2_ws/install/more_interfaces/lib/python3.12/site-packages:/home/meta/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/meta/ros2_ws/install/tutorial_interfaces:/home/meta/ros2_ws/install/turtlesim:/home/meta/ros2_ws/install/more_interfaces:/home/meta/ros2_ws/install/custom_action_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[8.249336] (-) TimerEvent: {}
+[8.349740] (-) TimerEvent: {}
+[8.450115] (-) TimerEvent: {}
+[8.550499] (-) TimerEvent: {}
+[8.650878] (-) TimerEvent: {}
+[8.751250] (-) TimerEvent: {}
+[8.851629] (-) TimerEvent: {}
+[8.854776] (nodic_launcher) StdoutLine: {'line': b'running egg_info\n'}
+[8.855857] (nodic_launcher) StdoutLine: {'line': b'creating ../../build/nodic_launcher/nodic_launcher.egg-info\n'}
+[8.902517] (nodic_launcher) StdoutLine: {'line': b'writing ../../build/nodic_launcher/nodic_launcher.egg-info/PKG-INFO\n'}
+[8.903203] (nodic_launcher) StdoutLine: {'line': b'writing dependency_links to ../../build/nodic_launcher/nodic_launcher.egg-info/dependency_links.txt\n'}
+[8.903656] (nodic_launcher) StdoutLine: {'line': b'writing requirements to ../../build/nodic_launcher/nodic_launcher.egg-info/requires.txt\n'}
+[8.903933] (nodic_launcher) StdoutLine: {'line': b'writing top-level names to ../../build/nodic_launcher/nodic_launcher.egg-info/top_level.txt\n'}
+[8.904175] (nodic_launcher) StdoutLine: {'line': b"writing manifest file '../../build/nodic_launcher/nodic_launcher.egg-info/SOURCES.txt'\n"}
+[8.951723] (-) TimerEvent: {}
+[9.001737] (nodic_launcher) StdoutLine: {'line': b"reading manifest file '../../build/nodic_launcher/nodic_launcher.egg-info/SOURCES.txt'\n"}
+[9.002177] (nodic_launcher) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[9.003767] (nodic_launcher) StdoutLine: {'line': b"writing manifest file '../../build/nodic_launcher/nodic_launcher.egg-info/SOURCES.txt'\n"}
+[9.004126] (nodic_launcher) StdoutLine: {'line': b'running build\n'}
+[9.004376] (nodic_launcher) StdoutLine: {'line': b'running build_py\n'}
+[9.004627] (nodic_launcher) StdoutLine: {'line': b'creating /home/meta/ros2_ws/build/nodic_launcher/build\n'}
+[9.004961] (nodic_launcher) StdoutLine: {'line': b'creating /home/meta/ros2_ws/build/nodic_launcher/build/lib\n'}
+[9.005186] (nodic_launcher) StdoutLine: {'line': b'creating /home/meta/ros2_ws/build/nodic_launcher/build/lib/nodic_launcher\n'}
+[9.005341] (nodic_launcher) StdoutLine: {'line': b'copying nodic_launcher/__init__.py -> /home/meta/ros2_ws/build/nodic_launcher/build/lib/nodic_launcher\n'}
+[9.005634] (nodic_launcher) StdoutLine: {'line': b'running install\n'}
+[9.020944] (nodic_launcher) StdoutLine: {'line': b'running install_lib\n'}
+[9.051814] (-) TimerEvent: {}
+[9.068148] (nodic_launcher) StdoutLine: {'line': b'creating /home/meta/ros2_ws/install/nodic_launcher/lib/python3.12/site-packages/nodic_launcher\n'}
+[9.068546] (nodic_launcher) StdoutLine: {'line': b'copying /home/meta/ros2_ws/build/nodic_launcher/build/lib/nodic_launcher/__init__.py -> /home/meta/ros2_ws/install/nodic_launcher/lib/python3.12/site-packages/nodic_launcher\n'}
+[9.070022] (nodic_launcher) StdoutLine: {'line': b'byte-compiling /home/meta/ros2_ws/install/nodic_launcher/lib/python3.12/site-packages/nodic_launcher/__init__.py to __init__.cpython-312.pyc\n'}
+[9.070572] (nodic_launcher) StdoutLine: {'line': b'running install_data\n'}
+[9.070845] (nodic_launcher) StdoutLine: {'line': b'creating /home/meta/ros2_ws/install/nodic_launcher/share/ament_index\n'}
+[9.071127] (nodic_launcher) StdoutLine: {'line': b'creating /home/meta/ros2_ws/install/nodic_launcher/share/ament_index/resource_index\n'}
+[9.071412] (nodic_launcher) StdoutLine: {'line': b'creating /home/meta/ros2_ws/install/nodic_launcher/share/ament_index/resource_index/packages\n'}
+[9.071593] (nodic_launcher) StdoutLine: {'line': b'copying resource/nodic_launcher -> /home/meta/ros2_ws/install/nodic_launcher/share/ament_index/resource_index/packages\n'}
+[9.071836] (nodic_launcher) StdoutLine: {'line': b'copying package.xml -> /home/meta/ros2_ws/install/nodic_launcher/share/nodic_launcher\n'}
+[9.072046] (nodic_launcher) StdoutLine: {'line': b'creating /home/meta/ros2_ws/install/nodic_launcher/share/nodic_launcher/launch\n'}
+[9.072283] (nodic_launcher) StdoutLine: {'line': b'copying launch/_launch.xml -> /home/meta/ros2_ws/install/nodic_launcher/share/nodic_launcher/launch\n'}
+[9.072504] (nodic_launcher) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.123866] (nodic_launcher) StdoutLine: {'line': b'Copying ../../build/nodic_launcher/nodic_launcher.egg-info to /home/meta/ros2_ws/install/nodic_launcher/lib/python3.12/site-packages/nodic_launcher-0.0.0-py3.12.egg-info\n'}
+[9.125672] (nodic_launcher) StdoutLine: {'line': b'running install_scripts\n'}
+[9.151939] (-) TimerEvent: {}
+[9.252284] (-) TimerEvent: {}
+[9.352642] (-) TimerEvent: {}
+[9.430191] (nodic_launcher) StdoutLine: {'line': b"writing list of installed files to '/home/meta/ros2_ws/build/nodic_launcher/install.log'\n"}
+[9.452808] (-) TimerEvent: {}
+[9.489604] (nodic_launcher) CommandEnded: {'returncode': 0}
+[9.553095] (-) TimerEvent: {}
+[9.653716] (-) TimerEvent: {}
+[9.713756] (nodic_launcher) JobEnded: {'identifier': 'nodic_launcher', 'rc': 0}
+[9.716084] (-) EventReactorShutdown: {}

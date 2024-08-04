@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240716-1147-Experimental"
+	Name="meta-Inspiron-3542"
+	Generator="ctest-3.28.3"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="13.2.0"
+	OSName="Linux"
+	Hostname="meta-Inspiron-3542"
+	OSRelease="6.8.0-36-generic"
+	OSVersion="#36-Ubuntu SMP PREEMPT_DYNAMIC Mon Jun 10 10:49:14 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="69"
+	ProcessorCacheSize="3072"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="3819"
+	TotalPhysicalMemory="3820"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1895.47"
+	>
+	<Testing>
+		<StartDateTime>Jul 16 12:49 WAT</StartDateTime>
+		<StartTestTime>1721130577</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jul 16 12:49 WAT</EndDateTime>
+		<EndTestTime>1721130577</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
